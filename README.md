@@ -74,3 +74,11 @@ Challenge Output
 14
 
 9
+
+## Comments
+This looks really good to me, well done, awesome work!
+I think the number of tests in appropriate and the method names are pretty good too, it is easy to understand what the methods are responisble for. I like the seperation of what each class needs to know about, really nice :)!
+
+Just some small changes to the field class. The field doesn't need to know how many people it will feed, that only needs to be known to the calculation, all the field needs to know about is how many seeds it will be starting with. Then just some small changes to return the weeks from the calulate_weeks method instead of getting it from the field class itselfs, again I don't think the field object needs to know about that. These aren't not really big changes, just might help with speration of concerns a little more.
+
+I added some comments on the field.rb and field_spec.rb files.
